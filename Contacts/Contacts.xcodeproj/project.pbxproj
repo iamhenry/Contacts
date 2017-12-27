@@ -13,6 +13,9 @@
 		BA65819D1FF326B3005E3BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA65819B1FF326B3005E3BD1 /* Main.storyboard */; };
 		BA65819F1FF326B3005E3BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65819E1FF326B3005E3BD1 /* Assets.xcassets */; };
 		BA6581A21FF326B3005E3BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6581A01FF326B3005E3BD1 /* LaunchScreen.storyboard */; };
+		BA6581AA1FF32D0C005E3BD1 /* ContactsDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA6581A91FF32D0C005E3BD1 /* ContactsDB.plist */; };
+		BA6581AC1FF32D96005E3BD1 /* PlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6581AB1FF32D96005E3BD1 /* PlistLoader.swift */; };
+		BA6581AE1FF32E3C005E3BD1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6581AD1FF32E3C005E3BD1 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BA65819E1FF326B3005E3BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA6581A11FF326B3005E3BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA6581A31FF326B3005E3BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6581A91FF32D0C005E3BD1 /* ContactsDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactsDB.plist; sourceTree = "<group>"; };
+		BA6581AB1FF32D96005E3BD1 /* PlistLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistLoader.swift; sourceTree = "<group>"; };
+		BA6581AD1FF32E3C005E3BD1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				BA6581951FF326B3005E3BD1 /* AppDelegate.swift */,
 				BA6581971FF326B3005E3BD1 /* MasterViewController.swift */,
 				BA6581991FF326B3005E3BD1 /* DetailViewController.swift */,
+				BA6581AB1FF32D96005E3BD1 /* PlistLoader.swift */,
+				BA6581AD1FF32E3C005E3BD1 /* Contact.swift */,
 				BA65819B1FF326B3005E3BD1 /* Main.storyboard */,
 				BA65819E1FF326B3005E3BD1 /* Assets.xcassets */,
 				BA6581A01FF326B3005E3BD1 /* LaunchScreen.storyboard */,
 				BA6581A31FF326B3005E3BD1 /* Info.plist */,
+				BA6581A91FF32D0C005E3BD1 /* ContactsDB.plist */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 				BA6581A21FF326B3005E3BD1 /* LaunchScreen.storyboard in Resources */,
 				BA65819F1FF326B3005E3BD1 /* Assets.xcassets in Resources */,
 				BA65819D1FF326B3005E3BD1 /* Main.storyboard in Resources */,
+				BA6581AA1FF32D0C005E3BD1 /* ContactsDB.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +151,9 @@
 			files = (
 				BA65819A1FF326B3005E3BD1 /* DetailViewController.swift in Sources */,
 				BA6581981FF326B3005E3BD1 /* MasterViewController.swift in Sources */,
+				BA6581AE1FF32E3C005E3BD1 /* Contact.swift in Sources */,
 				BA6581961FF326B3005E3BD1 /* AppDelegate.swift in Sources */,
+				BA6581AC1FF32D96005E3BD1 /* PlistLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
