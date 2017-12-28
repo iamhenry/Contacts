@@ -19,10 +19,14 @@ class ContactDetailController: UITableViewController {
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var stateLabel: UILabel!
     @IBOutlet weak var zipCodeLabel: UILabel!
+    @IBOutlet weak var profileView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        configureView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +37,8 @@ class ContactDetailController: UITableViewController {
     func configureView() {
         guard let contact = contact else { return }
         
+        profileView.image = contact.image
+        nameLabel.text = "\(contact.firstName) \(contact.lastName)"
         phoneNumberLabel.text = contact.phone
         emailLabel.text = contact.email
         streetLabel.text = contact.street
